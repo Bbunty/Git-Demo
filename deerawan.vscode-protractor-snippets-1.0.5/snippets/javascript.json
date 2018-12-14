@@ -1,0 +1,214 @@
+{
+  "elementByBinding": {
+    "prefix": "ebbin",
+    "body": "element(by.binding('$1'));"
+  },
+  "elementAllByBinding": {
+    "prefix": "eabin",
+    "body": "element.all(by.binding('$1'));"
+  },
+  "elementByExactBinding": {
+    "prefix": "ebxbin",
+    "body": "element(by.exactBinding('$1'));"
+  },
+  "elementAllByExactBinding": {
+    "prefix": "eaxbin",
+    "body": "element.all(by.exactBinding('$1'));"
+  },
+  "elementByModel": {
+    "prefix": "ebmod",
+    "body": "element(by.model('$1'));"
+  },
+  "elementAllByModel": {
+    "prefix": "eamod",
+    "body": "element.all(by.model('$1'));"
+  },
+  "elementByButtonText": {
+    "prefix": "ebbtn",
+    "body": "element(by.buttonText('$1'));"
+  },
+  "elementAllByButtonText": {
+    "prefix": "eabtn",
+    "body": "element.all(by.buttonText('$1'));"
+  },
+  "elementByPartialButtonText": {
+    "prefix": "ebpbtn",
+    "body": "element(by.partialButtonText('$1'));"
+  },
+  "elementAllByPartialButtonText": {
+    "prefix": "eapbtn",
+    "body": "element.all(by.partialButtonText('$1'));"
+  },
+  "elementByRepeater": {
+    "prefix": "ebrep",
+    "body": "element(by.repeater('$1'));"
+  },
+  "elementAllByRepeater": {
+    "prefix": "earep",
+    "body": "element.all(by.repeater('$1'));"
+  },
+  "elementByExactRepeater": {
+    "prefix": "ebxrep",
+    "body": "element(by.exactRepeater('$1'));"
+  },
+  "elementAllByExactRepeater": {
+    "prefix": "eaxrep",
+    "body": "element.all(by.exactRepeater('$1'));"
+  },
+  "elementByCssContainingText": {
+    "prefix": "ebcsstxt",
+    "body": "element(by.cssContainingText('${1:css}', '${2:text}'));"
+  },
+  "elementAllByCssContainingText": {
+    "prefix": "eacsstxt",
+    "body": "element.all(by.cssContainingText('${1:css}', '${2:text}'));"
+  },
+  "elementByOptions": {
+    "prefix": "ebopt",
+    "body": "element(by.options('$1'));"
+  },
+  "elementAllByOptions": {
+    "prefix": "eaopt",
+    "body": "element.all(by.options('$1'));"
+  },
+  "elementByDeepCss": {
+    "prefix": "ebdcss",
+    "body": "element(by.deepCss('$1'));"
+  },
+  "elementAllByDeepCss": {
+    "prefix": "eadcss",
+    "body": "element.all(by.deepCss('$1'));"
+  },
+  "elementByClassName": {
+    "prefix": "ebclass",
+    "body": "element(by.class('$1'));"
+  },
+  "elementAllByClassName": {
+    "prefix": "eaclass",
+    "body": "element.all(by.class('$1'));"
+  },
+  "elementByCss": {
+    "prefix": "ebcss",
+    "body": "element(by.css('$1'));"
+  },
+  "elementAllByCss": {
+    "prefix": "eacss",
+    "body": "element.all(by.css('$1'));"
+  },
+  "elementById": {
+    "prefix": "ebid",
+    "body": "element(by.id('$1'));"
+  },
+  "elementAllById": {
+    "prefix": "eaid",
+    "body": "element.all(by.id('$1'));"
+  },
+  "elementByLinkText": {
+    "prefix": "eblink",
+    "body": "element(by.linkText('$1'));"
+  },
+  "elementAlByLinkText": {
+    "prefix": "ealink",
+    "body": "element.all(by.linkText('$1'));"
+  },
+  "elementByPartialLinkText": {
+    "prefix": "ebplink",
+    "body": "element(by.partialLinkText('$1'));"
+  },
+  "elementAllByPartialLinkText": {
+    "prefix": "eaplink",
+    "body": "element.all(by.partialLinkText('$1'));"
+  },
+  "elementByJs": {
+    "prefix": "ebjs",
+    "body": "element(by.js('$1'));"
+  },
+  "elementAllByJs": {
+    "prefix": "eajs",
+    "body": "element.all(by.js('$1'));"
+  },
+  "elementByName": {
+    "prefix": "ebname",
+    "body": "element(by.name('$1'));"
+  },
+  "elementAllByName": {
+    "prefix": "eaname",
+    "body": "element.all(by.name('$1'));"
+  },
+  "elementByTagName": {
+    "prefix": "ebtag",
+    "body": "element(by.tagName('$1'));"
+  },
+  "elementAllByTagName": {
+    "prefix": "eatag",
+    "body": "element.all(by.tagName('$1'));"
+  },
+  "elementByXpath": {
+    "prefix": "ebxp",
+    "body": "element(by.xpath('$1'));"
+  },
+  "elementAllByXpath": {
+    "prefix": "eaxp",
+    "body": "element.all(by.xpath('$1'));"
+  },
+  "browserGet": {
+    "prefix": "bg",
+    "body": "browser.get('$1');",
+    "description": "Protractor browser.get"
+  },
+  "browserPause": {
+    "prefix": "bp",
+    "body": "browser.pause();",
+    "description": "Protractor browser.pause"
+  },
+  "browserGetCurrentUrl": {
+    "prefix": "bgcurl",
+    "body": "browser.getCurrentUrl();",
+    "description": "Protractor browser.getCurrentUrl"
+  },
+  "browserSetLocation": {
+    "prefix": "bsl",
+    "body": "browser.setLocation('$1');",
+    "description": "Protractor browser.setLocation"
+  },
+  "browserWait": {
+    "prefix": "bw",
+    "body": "browser.wait($1);",
+    "description": "Protractor browser.wait"
+  },
+  "browserWaitForAngular": {
+    "prefix": "bwa",
+    "body": "browser.waitForAngular();",
+    "description": "Protractor browser.waitForAngular"
+  },
+  "browserAddMockModule": {
+    "prefix": "bamock",
+    "body": "browser.addMockModule('${modName}', function() {\n\tangular.module(${modName}, []).${value}('${1}', ${2});\n});",
+    "description": "Protractor browser.addMockModule"
+  },
+  "browserClearMockModules": {
+    "prefix": "bcmock",
+    "body": "browser.clearMockModules();",
+    "description": "Protractor browser.clearMockModules"
+  },
+  "poset": {
+    "prefix": "poset",
+    "body": "this.set${1:Element} = function(${2:value}) {\n\t${3:element}.clear().sendKeys(${2:value});\n};",
+    "description": "Protractor page object set element using sendKeys()"
+  },
+  "poget": {
+    "prefix": "poget",
+    "body": "this.get${1:Element} = function() {\n\treturn ${2:element}.getText();\n};",
+    "description": "Protractor page object get element text using getText()"
+  },
+  "pogetval": {
+    "prefix": "pogetval",
+    "body": "this.get${1:Element} = function() {\n\treturn ${2:element}.getAttribute('value');\n};",
+    "description": "Protractor page object get element value using getAttribute('value')"
+  },
+  "poclick": {
+    "prefix": "poclick",
+    "body": "this.click${1:Element} = function() {\n\t ${2:element}.click();\n};",
+    "description": "Protractor page object click element"
+  }
+}
