@@ -1,0 +1,9 @@
+{
+    "vscode-janus-debug.uploadOnSave": [
+        "Elements.1"
+    ],
+    "vscode-janus-debug.uploadManually": [
+        "data",
+        "configuration"
+    ]
+}
