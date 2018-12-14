@@ -19,9 +19,9 @@ describe('Prtractor All', function () {
         browser.get('http://juliemr.github.io/protractor-demo/');
         expect(browser.getTitle()).toEqual('Super Calculator');
         Add(13, 2, "SUBTRACTION");
-        Add(10, 2, "ADDITION");
+        Add(10, 2, "ADDITION");//This a demo comment
         Add(10, 2, "DIVISION");
-        Add(13, 2, "SUBTRACTION");
+        Add(13, 2, "SUBTRACTION");//this is to test Git
 
         //For List count.
         element.all(by.repeater("result in memory")).count().then(function (text) {
